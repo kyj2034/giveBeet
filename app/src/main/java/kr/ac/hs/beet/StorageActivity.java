@@ -390,7 +390,7 @@ public class StorageActivity extends AppCompatActivity {
             final Context context = viewGroup.getContext();
             final ObjectStrItem objectItem = items.get(position);
 
-            if(convertView1 == null) {
+            if(convertView1 == null) { 
                 LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 convertView1 = inflater.inflate(R.layout.storage_list_item, viewGroup, false);
 
